@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Shopping List</h1>
+
+    <p id="first">Get it done today</p>
+
+    <div class="grid">
+      <div class="zone">
+        <h2 onclick="dropdownList()">Groceries:</h2>
+        <ul class="list" id="list1">
+          <li class="list-container">
+            <p random="23">Chicken</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Jello</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Spinach</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Rice</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Birthday Cake</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Candles</p>
+            <button class="delete">X</button>
+          </li>
+        </ul>
+
+        <input type="text" id="list1Input" placeholder="Add an item..." />
+        <button id="enterList1Item">Add Item</button>
+
+        <h2>Random:</h2>
+        <ul class="list list2">
+          <li class="list-container">
+            <p random="23">Notebook</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Pens</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Phone Case</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Paper</p>
+            <button class="delete">X</button>
+          </li>
+
+          <li class="list-container">
+            <p>Towels</p>
+            <button class="delete">X</button>
+          </li>
+        </ul>
+
+        <button>Add Item</button>
+      </div>
+
+      <div class="zone selectors">
+        <ul>
+          DOM Selectors
+          <hr />
+          <li>getElementsByTagName</li>
+          <li>getElementsByClassName</li>
+          <li>getElementById</li>
+          <br />
+          <li>querySelector</li>
+          <li>querySelectorAll</li>
+          <br />
+          <li>getAttribute</li>
+          <li>setAttribute</li>
+          <br />
+          <li>##Changing Styles</li>
+          <li>style.{property} //ok</li>
+          <br />
+          <li>className //best</li>
+          <li>classList //best</li>
+          <br />
+          <li>classList.add</li>
+          <li>classList.remove</li>
+          <li>classList.toggle</li>
+          <br />
+          <li>##Bonus</li>
+          <li>innerHTML //DANGEROUS</li>
+          <br />
+          <li>parentElement</li>
+          <li>children</li>
+          <br />
+          <li>##It is important to CACHE selectors in variables</li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
